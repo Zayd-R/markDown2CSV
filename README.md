@@ -77,10 +77,8 @@ sbt nativeLink
 ```
 
 ## License
-
 MIT
 ```
-
 ---
 
 ## **4. Create a GitHub Release**
