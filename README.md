@@ -14,10 +14,10 @@ Convert markdown notes to Anki flashcards (CSV format).
 
 ### Linux
 
-Download the binary from [Releases](https://github.com/YOUR_USERNAME/md2cards/releases):
+Download the binary from [Releases](https://github.com/Zayd-R/markDown2CSV/edit/main/README.md):
 ```bash
 # Download
-wget https://github.com/YOUR_USERNAME/md2cards/releases/download/v0.1.0/md2cards-linux
+wget https://github.com/Zayd-R/markDown2CSV/releases/download/v0.1.0/md2cards-linux
 
 # Make executable
 chmod +x md2cards-linux
@@ -29,7 +29,7 @@ sudo mv md2cards-linux /usr/local/bin/md2cards
 ### macOS
 ```bash
 # Download
-curl -L -o md2cards-macos https://github.com/YOUR_USERNAME/md2cards/releases/download/v0.1.0/md2cards-macos
+curl -L -o md2cards-macos https://github.com/Zayd-R/markDown2CSV/releases/download/v0.1.0/md2cards-linux
 
 # Make executable
 chmod +x md2cards-macos
@@ -40,7 +40,7 @@ sudo mv md2cards-macos /usr/local/bin/md2cards
 
 ## Usage
 ```bash
-md2cards notes.md -o flashcards.csv
+md2cards notes.md flashcards
 ```
 
 Then import `flashcards.csv` into Anki (File → Import).
@@ -81,21 +81,3 @@ MIT
 ```
 ---
 
-## **4. Create a GitHub Release**
-
-**On GitHub website:**
-
-1. Go to your repo → "Releases" → "Create a new release"
-2. Tag: `v0.1.0`
-3. Title: `v0.1.0 - Initial Release`
-4. Description:
-```
-First release of md2cards!
-
-Features:
-- Parse ## headers and Q:/A: format
-- Preserve code blocks
-- Auto-tagging by sections
-- Export to Anki CSV
-
-Download the binary for your platform below.
